@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultas de nutrición personalizada y planes de alimentación saludable. Agenda tu cita hoy.">
+    <title>Nutrición & Bienestar | Tu Nombre</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+    <header id="inicio">
+        <div class="container">
+            <div class="logo">
+                <h1>NutriVida</h1> </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#agendar" class="btn-nav">Agendar Cita</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h2>Transforma tu salud a través de la alimentación consciente</h2>
+                <p>Planes nutricionales personalizados que se adaptan a tu estilo de vida, sin dietas restrictivas.</p>
+                <div class="hero-buttons">
+                    <a href="#agendar" class="btn btn-primary">Reservar Consulta</a>
+                    <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <iframe src="https://assets.pinterest.com/ext/embed.html?id=914019686906287766" height="500" width="400" frameborder="0" scrolling="no" ></iframe>
+                    <!--<img src="https://pin.it/65veU7nbt" alt="Foto de la Nutricionista">-->
+
+                </div>
+                <div class="about-text">
+                    <h3>Hola, soy Karyme Ocaña. </h3>
+                    <p class="subtitle">Licenciada en Nutrición. Egresada de la Universidad Michoacana de San Nicolás de Hidalgo</p>
+                    <p> Mi objetivo es educarte y darte las herramientas para llevar tu alimentación de una manera sostenible sin complicaciones y restricciones con tus propios gustos y necesidades.
+Tengo diferentes certificaciones y diplomados como lo es el área deportiva y clínica, tengo experiencia atendiendo pacientes con enfermedades crónicas, te invito a que formes parte de esta aventura!</p>
+                    <ul>
+                        <li>🍏 Licenciada en Nutrición</li>
+                        <li>🥗 Especialista en Nutrición Deportiva</li>
+                        <li>📖 Nutrición Clínica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <div class="container">
+                <h3 class="section-title">¿Cómo puedo ayudarte?</h3>
+                <div class="cards-grid">
+                    <article class="card">
+                        <div class="icon">🥑</div>
+                        <h4>Control de Peso</h4>
+                        <p>Estrategias sostenibles para alcanzar tu peso ideal sin pasar hambre.</p>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="icon">⚡</div>
+                        <h4>Nutrición Deportiva</h4>
+                        <p>Optimiza tu rendimiento y recuperación con un plan a tu medida.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icon">🔬</div>
+                        <h4>Nutrición Clínica</h4>
+                        <p>Manejo de patologías: Diabetes, Hipertensión, SOP y digestión.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="testimonials">
+            <div class="container">
+                <h3 class="section-title">Historias de Éxito</h3>
+                <div class="testimonial-grid">
+                    <blockquote class="testimonial-card">
+                        <p>"Nunca creí que comer sano fuera tan rico. Gracias a Karyme he recuperado mi energía."</p>
+                        <cite>- María G.</cite>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <p>"Un enfoque totalmente humano. No te sientes juzgado, te sientes acompañado."</p>
+                        <cite>- Carlos R.</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="agendar" class="booking">
+            <div class="container booking-container">
+                <div class="booking-header">
+                    <h3>Agenda tu Cita</h3>
+                    <p>Da el primer paso hacia tu bienestar. Contactáme en redes sociales Facebook o Pinterest para agendar tu cita.</p>
+                </div>
+                
+               <!-- <form class="booking-form" action="https://script.google.com/macros/s/AKfycbxAalngUjkzRxqlY1hpiLkMAp6kzXufckEc_m_tAKF6MKfpI-S7wqA_7DX1Yd6cJLjU/exec" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servicio">Tipo de Consulta</label>
+                        <select id="servicio" name="servicio">
+                            <option value="primera-vez">Primera vez (Evaluación completa)</option>
+                            <option value="seguimiento">Cita de Seguimiento</option>
+                            <option value="online">Asesoría Online</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fecha">Fecha Preferida</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Solicitar Cita</button>
+                </form>-->
+            </div>
+        </section> 
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h4>NutriVida</h4>
+                <p>Alimentando tu mejor versión cada día.</p>
+            </div>
+            <div class="footer-links">
+                <h5>Enlaces</h5>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#agendar">Contacto</a></li>
+                    <li><a href="#">Aviso de Privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h5>Sígueme</h5>
+                <a href="https://www.facebook.com/profile.php?id=61567169781327&rdid=aEwReZwZhL81Txhc&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BmvUmGhYP%2F#">Facebook</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Karyme Ocaña - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
